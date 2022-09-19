@@ -3,6 +3,7 @@ This repository contains a handful of different speed tests and preformance test
 
 All of the tests below were ran on the following machine:
 ![Neofetch](neofetch.png)
+
 Test results may differ on a different machines.
 
 ## Primes
@@ -12,27 +13,27 @@ Prints the 10,000th prime number (which is 104,729).
 Pseudo code:
 ```
 isPrime(n) {
-	i = 2
-	while (i < n) {
-		if (n % i == 0) {
-			ret false
-		}
-		i++
-	}
-	ret true
+    i = 2
+    while (i < n) {
+        if (n % i == 0) {
+            ret false
+        }
+        i++
+    }
+    ret true
 }
 
 main() {
-	n = 0
-	p = 0
-	while (p <= 10,000) {
-		n++
-		if (isPrime(n)) {
-			p++
-		}
-	}
-	
-	println(n as string)
+    n = 0
+    p = 0
+    while (p <= 10,000) {
+        n++
+        if (isPrime(n)) {
+            p++
+        }
+    }
+    
+    println(n as string)
 }
 ```
 
