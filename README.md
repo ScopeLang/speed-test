@@ -37,8 +37,9 @@ main() {
 }
 ```
 
-| **Language** | **Time**     |
-|--------------|--------------|
-| C            | 0.6 seconds  |
-| **Scope**    | 1.9 seconds  |
-| Python       | 23.5 seconds |
+| **Language**                | **Time**     |
+|-----------------------------|--------------|
+| C                           | 0.6 seconds  |
+| **Scope** (Dec 3, 2022)     | 0.9 seconds  |
+| **Scope** (Sep 19, 2022)    | 1.9 seconds  |
+| Python                      | 23.5 seconds |

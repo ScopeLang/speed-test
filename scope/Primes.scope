@@ -6,7 +6,7 @@ func bool isPrime(int n) {
 		if (n % i == 0) {
 			ret false; 
 		}
-		i = i + 1;
+		i += 1;
 	}
 	ret true;
 }
@@ -15,9 +15,9 @@ func void main() {
 	int n = 0;
 	int p = 0;
 	while (p < 10001) {
-		n = n + 1;
+		n += 1;
 		if (isPrime(n)) {
-			p = p + 1;
+			p += 1;
 		}
 	}
 	
